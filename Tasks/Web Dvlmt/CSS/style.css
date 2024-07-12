@@ -1,0 +1,25 @@
+body{
+    background-image: url(bgfile.png);
+    background-size: cover;
+    margin:0;
+    padding:0;
+
+}
+h2{
+   font-size:xx-large; 
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+   margin-left: 180px;
+   color:rgb(153, 219, 210);
+}
+
+.box{
+    height: 480px;
+    width: 500px;
+    margin-left: 700px;
+    background-color: rgb(87, 130, 123);
+    text-align:center;
+    color:rgb(255, 255, 255);
+    border-radius: 10%;
+
+}

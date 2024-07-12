@@ -1,0 +1,40 @@
+.con{
+    height:250px;
+    width:100%;
+}
+
+.box{
+    height: 100px;
+    width:100px;
+    background-color: blue;
+    transition: 2s;
+}
+
+.box:hover{
+    background-color: red;
+    height:150px;
+    width:150px;
+    border-radius: 25%;
+    transition: 2s;
+}
+h1:hover{
+    font-family:fantasy;
+    font-size: xx-large;
+    color: green;
+    animation: blink 4s;
+}
+
+@media screen and (min-width:500px) {
+    .box{
+        background-color: purple;
+        height: 200px;
+        width: 200px;
+    }
+
+    .box:hover{
+        height: 25px;
+        width: 25px;
+        background-color: green;
+    }
+}
+ 

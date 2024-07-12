@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(9, 9, 68);
+    align-items: center;
+}
+.con{
+    text-align: center;
+}
+.welcome{
+    color:red;
+    text-align: center;
+}
+.welcome:hover{
+    animation-name: blink 10s;
+
+}
+
+.signin{
+    color:black;
+    background-color: red;
+    border:blueviolet;
+    border-radius:10px;
+    
+    
+}
